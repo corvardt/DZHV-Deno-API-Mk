@@ -1,1 +1,1 @@
-# DZHV-Deno-API-Mk
+## Market data of $DZHV, weekly, in a simple API
