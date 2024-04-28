@@ -92,7 +92,7 @@ router.get("/v1/weekly/volume", async (ctx) =>
 router.get("/v1/weekly/marketcap", async (ctx) =>
   getDataByPrefix(ctx, "weekly-mkcap")
 );
-router.get("/v1/weekly/liquidity", async (ctx) =>
+router.get("/v1/weekly/liq", async (ctx) =>
   getDataByPrefix(ctx, "weekly-liquidity")
 );
 router.get("/v1/weekly/averageprice", async (ctx) =>
