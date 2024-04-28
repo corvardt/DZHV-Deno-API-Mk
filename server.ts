@@ -95,7 +95,7 @@ router.get("/v1/weekly/marketcap", async (ctx) =>
 router.get("/v1/weekly/liquidity", async (ctx) =>
   getDataByPrefix(ctx, "weekly-liquidity")
 );
-router.get("/v1/weekly/price", async (ctx) =>
+router.get("/v1/weekly/averageprice", async (ctx) =>
   getDataByPrefix(ctx, "weekly-price")
 );
 app.use(router.routes());
